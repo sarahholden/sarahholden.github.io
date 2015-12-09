@@ -232,6 +232,16 @@ header nav a {
 	width: 100%;
 }
 
+.gallery {
+	text-align: center;
+}
+
+.gallery button {
+	color: white;
+	margin: 1rem;
+	cursor: pointer;
+}
+
 
 
 /*---------------------------------------------------------
@@ -370,6 +380,14 @@ button {
 	letter-spacing: 0.2rem;
 	font-size: 1.2rem;
 	padding: .8rem;
+}
+
+button:focus {
+	outline: none;
+}
+
+button[disabled] {
+	opacity: .3;
 }
 
 /*---------------------------------------------------------
