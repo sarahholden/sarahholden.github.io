@@ -1,6 +1,7 @@
+var $socialLinkTab = $('.social-link-tab');
+var articleListOffset = $('#article-list').offset().top;
+
 $(window).on('scroll', function() {
-	var $socialLinkTab = $('.social-link-tab');
-	var articleListOffset = $('#article-list').offset().top;
 	var scrollTop = $(this).scrollTop();
 
   if( _____________________ ) {

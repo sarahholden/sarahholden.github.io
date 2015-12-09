@@ -42,17 +42,18 @@
 	});
 
 
-	// Sticky social link tab
-	var $socialLinkTab = $(".social-link-tab"),
-	    articleListOffset = $('#article-list').offset().top;
 
-	$(window).on('scroll', function() {
-	  if( $(this).scrollTop() > articleListOffset ) {
-	    $socialLinkTab.addClass('scrolled');
-	  } else {
-	    $socialLinkTab.removeClass('scrolled');
-	  }
-	});
+$(window).on('scroll', function() {
+	var $socialLinkTab = $(".social-link-tab");
+	var articleListOffset = $('#article-list').offset().top;
+	var scrollTop = $(this).scrollTop();
+
+  if( scrollTop > articleListOffset ) {
+    $socialLinkTab.addClass('scrolled');
+  } else {
+    $socialLinkTab.removeClass('scrolled');
+  }
+});
 
 
 })();
