@@ -1,29 +1,29 @@
 ## Overview
 
-You have been hired as the Front-End Developer for The Explorer, a science and technology education site. You are making some final additions and your clients have requested that you make it easier for users to navigate the site's many sections.
+You have been hired as the Front-End Developer for The Explorer, a science and technology education site. You have finished the HTMl and CSS for the site and you're working through some of the interactions for the page.
 
 Download the code base to get started with the Code Challenge and Short Answer Questions.
 
 ## The Problem
-Your goal is to implement an interactive navigation bar that slides down and provides the user with sub-navigation options when the user clicks on a link in the main nav. You have already written the HTML and CSS for the navigation bar and the last step is to add functionality with JavaScript. You have been provided design mockups for the closed and open states for the navigation bar to work from.
+Your goal is to implement an interactive navigation bar that slides down and provides the user with sub-navigation options when the user clicks on a link in the main nav. You have already written the HTML and CSS for the navigation bar and the last step is to add functionality with JavaScript. You have been provided an animated design mockup to work from.
 
 ## What to Code:
 
 Write JavaScript in main.js to make the menu interactive.
 
-When the user clicks on a navigation item, you will need to add a class to the link the user clicked on (hint: you can use the “active” class), slide down the secondary nav bar, and fade in the related sub-navigation section. If the user clicks on a link that is already active, all menu items should be deactivated and the secondary-nav bar should slide up.
+When the user clicks on a navigation item, you will need to:
+
+- Add a class to the link the user clicked on (hint: you can use the “active” class)
+- Slide down the secondary nav bar
+- Fade in the related sub-navigation section.
+
+If the user clicks on a link that is already active you will need to:
+- Remove the active state from all menu items
+- Slide up the secondary nav bar.
 
 You will not need to alter any HTML or CSS.
 
-Site with menu bar closed:
-
-![Layout](sub_nav_closed.png)
-
-
-
-Site with menu bar open:
-
-![Layout](sub_nav_open.png)
+![Layout](code_challenge/menu.gif)
 
 ## Grading
 Your code will be graded based on the following criteria: 

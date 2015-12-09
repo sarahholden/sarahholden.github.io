@@ -5,11 +5,18 @@ The client would like to add a social links tab that fades in after the user has
 
 Add the necessary logic to achieve this functionality.
 
+Code: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/q1/q1_code_sample.js
+
+Image: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/q1/social_links.gif
+
 
 
 ## Question 2
 Rearrange the lines of code below to optimize the performance of the scroll function without breaking the functionality of the code.
 
+Code: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/q2/q2_code_sample.js
+
+Solution: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/q2/q2_solution.js
 
 
 ## Question 4
