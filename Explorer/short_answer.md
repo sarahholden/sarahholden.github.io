@@ -5,65 +5,17 @@ The client would like to add a social links tab that fades in after the user has
 
 Add the necessary logic to achieve this functionality.
 
-	// Sticky social link tab
-	$(window).on('scroll', function() {
 
-	var $socialLinkTab = $(".social-link-tab"),
-	    leadStoryHeight = $('.lead-story').outerHeight();
-
-		var scrollTop = $(this).scrollTop();
-	  if( __________________________ ) {
-	    $socialLinkTab.addClass('scrolled');
-	  } else {
-	    $socialLinkTab.removeClass('scrolled');
-	  }
-	});
-
-
-## Question 2
-What does the keyword "this" on line # refer to within this context? 
-
-	// Sticky social link tab
-
-	$(window).on('scroll', function() {
-	var $socialLinkTab = $(".social-link-tab"),
-	    leadStoryHeight = $('.lead-story').outerHeight();
-
-		var scrollTop = $(this).scrollTop();
-	  if( __________________________ ) {
-	    $socialLinkTab.addClass('scrolled');
-	  } else {
-	    $socialLinkTab.removeClass('scrolled');
-	  }
-	});
-
-	(multiple choice)
 
 ## Question 2
 Rearrange the lines of code below to optimize the performance of the scroll function without breaking the functionality of the code.
 
-	// Sticky social link tab
-
-	$(window).on('scroll', function() {
-	var $socialLinkTab = $(".social-link-tab"),
-	    leadStoryHeight = $('.lead-story').outerHeight();
-
-		var scrollTop = $(this).scrollTop();
-	  if( __________________________ ) {
-	    $socialLinkTab.addClass('scrolled');
-	  } else {
-	    $socialLinkTab.removeClass('scrolled');
-	  }
-	});
-
-	(multiple choice)
-
 
 
 ## Question 4
-Your client has requested that you add an image carousel to the home page featuring popular images from this years "Shoot for the Stars" photo competition. One of your teammates has made some headway on the carousel but needs your help finishing it up.
+Your client has requested that you add an image carousel to the home page featuring popular images from this year's "Shoot for the Stars" photo competition. One of your teammates has made some progress on the carousel but needs your help finishing it up.
 
-You take a glance through your teammate's code to gain an understanding of the code that has already been written. Assuming that the page has just loaded and the user clicks "next", what will the statement images[currentPosition] on line # evaluate to after the nextImage function is complete?
+You take a glance through your teammate's code to gain an understanding of the what has already been written. Assuming that the page has just loaded and the user clicks "next", what will the statement images[currentPosition] on line # evaluate to after the nextImage function is complete?
 
 (short answer)
 
