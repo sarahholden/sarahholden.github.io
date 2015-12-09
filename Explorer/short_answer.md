@@ -6,10 +6,11 @@ The client would like to add a social links tab that fades in after the user has
 Add the necessary logic to achieve this functionality.
 
 	// Sticky social link tab
+	$(window).on('scroll', function() {
+
 	var $socialLinkTab = $(".social-link-tab"),
 	    leadStoryHeight = $('.lead-story').outerHeight();
 
-	$(window).on('scroll', function() {
 		var scrollTop = $(this).scrollTop();
 	  if( __________________________ ) {
 	    $socialLinkTab.addClass('scrolled');
