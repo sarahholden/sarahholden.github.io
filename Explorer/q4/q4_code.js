@@ -15,6 +15,7 @@
 
 		currentPosition += 1;
 
+		// Blank goes here ________________
 		$('#galleryImage').attr('src', images[currentPosition]);
 
 	}
