@@ -17,7 +17,11 @@ Your client has requested that you add an image carousel to the home page featur
 
 You take a glance through your teammate's code to gain an understanding of the what has already been written. Assuming that the page has just loaded and the user clicks "next", what will the statement images[currentPosition] on line # evaluate to after the nextImage function is complete?
 
+Image: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/carousel_mockup.png
+
 Code sample: https://github.com/sarahholden/sarahholden.github.io/blob/master/Explorer/js/carousel.js
+
+
 
 (short answer)
 
