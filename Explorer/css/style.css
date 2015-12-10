@@ -50,7 +50,6 @@ body {
 	color: #333;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-	min-width: 800px;
 }
 
 .main-wrapper {
@@ -131,7 +130,7 @@ header a {
 	color: white;
 }
 
-header h1 {
+.logo {
 	float: left;
 	margin-bottom: 0;
 	font-family: 'Questrial', sans-serif;
@@ -140,6 +139,29 @@ header h1 {
 	font-size: 1.8rem;
 	padding: 1rem 0;
 }
+
+.logo span {
+	margin-right: .5rem;
+}
+
+
+/*---------------------------------------------------------
+  N A V
+----------------------------------------------------------- */
+#dropdown {
+	background-color: #808080;
+	display: none;
+}
+
+.nav-panel {
+	text-align: center;
+	display: none;
+}
+
+.nav-panel a {
+	color: white;
+}
+
 
 header nav {
 	float: right;
@@ -162,21 +184,24 @@ nav a,
   line-height: 2;	
 }
 
-nav a:hover,
-.nav-panel a:hover {
-	color: white;
-}
-
-
 header nav a {
 	color: #C1C1C1;
 	transition: all .3s ease-in-out;
 	padding-bottom: 6px;
 }
 
+nav a:hover,
+.nav-panel a:hover {
+	color: white;
+}
+
 .active {
 	border-bottom: 2px solid #D06F4B;
 	padding-bottom: 0;
+}
+
+.hamburger {
+	display: none;
 }
 
 /*---------------------------------------------------------
@@ -205,24 +230,6 @@ header nav a {
 .scrolled {
 	transform: translate(0, -50%);
 	opacity: 1;
-}
-
-/*---------------------------------------------------------
-  N A V
------------------------------------------------------------ */
-#dropdown {
-	background-color: #808080;
-	height: 56px;
-	display: none;
-}
-
-.nav-panel {
-	text-align: center;
-	display: none;
-}
-
-.nav-panel a {
-	color: white;
 }
 
 /*---------------------------------------------------------
@@ -279,6 +286,18 @@ article .fa {
   margin-bottom: 2rem;
 }
 
+article h2 {
+	margin-bottom: .4rem;
+}
+
+article h1 {
+	margin-bottom: 1rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*---------------------------------------------------------
+  L E A D   S T O R Y
+----------------------------------------------------------- */
 .lead-story .fa {
 	font-size: 4rem;
 	margin-bottom: 2rem;
@@ -317,15 +336,9 @@ article .fa {
 	border-bottom-color: #333;
 }
 
-article h2 {
-	margin-bottom: .4rem;
-}
-
-article h1 {
-	margin-bottom: 1rem;
-	-webkit-font-smoothing: antialiased;
-}
-
+/*---------------------------------------------------------
+  Q U O T E
+----------------------------------------------------------- */
 
 .quote {
 	background-color: white;
@@ -435,12 +448,29 @@ footer .social-links a {
 
 
 
-@media only screen and (max-width: 820px) {
-/*	header h1,
-	.search,
-	header nav {
+@media only screen and (max-width: 905px) {
+	html {
+		font-size: 13px;
+	}
+
+	nav li,
+	.nav-panel li {
+		margin: 0 .5rem;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	.logo span {
 		display: none;
-	}*/
+	}
+}
+
+
+@media only screen and (max-width: 695px) {
+	.hamburger {
+		display: block;
+	}
 
 }
 
