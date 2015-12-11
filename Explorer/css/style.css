@@ -188,6 +188,7 @@ header nav a {
 	color: #C1C1C1;
 	transition: all .3s ease-in-out;
 	padding-bottom: 6px;
+	border-bottom: 2px solid transparent;
 }
 
 nav a:hover,
@@ -489,13 +490,25 @@ footer .social-links a {
 
 
 @media only screen and (max-width: 695px) {
-	.hamburger {
-		display: block;
-	}
+
 
 	.quote {
 		font-size: 2rem;
 		padding: 2rem 1rem;
+	}
+
+	header nav li {
+		display: block;
+	}
+
+	header nav {
+		float: none;
+		clear: both;
+		text-align: left;
+	}
+
+	.active {
+		padding-bottom: 6px;
 	}
 
 }
