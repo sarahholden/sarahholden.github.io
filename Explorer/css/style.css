@@ -497,7 +497,8 @@ footer .social-links a {
 		padding: 2rem 1rem;
 	}
 
-	header nav li {
+	header nav li,
+	.nav-panel li {
 		display: block;
 	}
 
@@ -509,6 +510,10 @@ footer .social-links a {
 
 	.active {
 		padding-bottom: 6px;
+	}
+
+	.footer-content {
+		padding: 4rem 1rem;
 	}
 
 }
